@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang = "en" dir="ltr">
+  <head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type= "text/css" href="backgroundgif.css">
+	<link rel="stylesheet" type= "text/css" href="home.css">
+	
+  </head>
+  <body>
+  <div class="header">
+  <img src="images/fish.png" alt="logo" />
+  <h1>fish detection</h1>
+  
+  </div>
+  </body>
+  
+  
+</html>
+
+
+<!DOCTYPE html>
+<html lang = "en" dir="ltr">
+  <head>
+	<meta charset="utf-8">
+	<title></title>
+	
+  </head>
+  <body>
+<script>
+fixBrokenImages = function( url ){
+    var img = document.getElementsByTagName('img');
+    var i=0, l=img.length;
+    for(;i<l;i++){
+        var t = img[i];
+        if(t.naturalWidth === 0){
+            //this image is broken
+            t.src = url;
+        }
+    }
+}
+
+ window.onload = function() {
+    fixBrokenImages('example.com/image.png');
+ }
+
+</script> 
+  </div>
+  </body>
+  
+  
+</html>
+
+
+
+
+
+
+
