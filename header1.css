@@ -1,0 +1,17 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #73f0f5;
+  color: BLACK;
+  font-size: 25px;
+}
+
+.header:hover {opacity: 0.3}
+
+.header: {
+	
+}
